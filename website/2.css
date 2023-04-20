@@ -1,0 +1,22 @@
+#footer {
+    background-image: linear-gradient( 50deg, #457893 0%, #387263 100%);
+/* the above uses colour codes and a straight line box which is the footer and contains text*/
+}
+
+html{
+    font-size: 20px;
+    font-family: sans-serif;
+    position center;
+    font-size: 30px;
+}
+#footer.footer{
+    min-height: auto;
+    flex-direction: column;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    font-family: sans-serif;
+}
+
+
+/* line 6-18 is the font styling and formating of the text on the photo page whcih uses font then its atrribute and values
+to make it the right size for the page*/

@@ -1,0 +1,75 @@
+*{
+    padding: 1;
+    margin: 1;
+    box-sizing: border-box;
+}
+html {
+font-size: 10px;
+font-family: Arial, Helvetica, sans-serif
+}
+.container {
+    width: 100%;
+    height: auto;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Hero Section */
+.hero{
+    min-width: none;
+    width: 100%;
+    padding-top: 50px;
+    justify-content: center;
+    background-color:turquoise;
+    display: flex;
+    flex-direction:column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+.hero .hero-info{
+    width: 100%;
+    text-align: center;
+}
+.hero .hero-info .hero-info-heading{
+    font-size: 6rem;
+    font-weight: 600;
+    color: rgb(97, 8, 105);
+    opacity: 200%;
+}
+.hero .hero-info .hero-info-subheading {
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: normal;
+    color: navy;
+    font-style:oblique;
+    font-weight:bold;
+}
+
+.hero .hero-img{
+  height:90%;
+  width: 90%;
+  margin-bottom: 5rem;  
+}
+.hero .hero-img img{
+    height: 100%;
+    width: 100%;
+}
+/* End Hero Section - this is the code for the style of the images and background and text it uses a combination of color , sizing elements
+*/
+
+/* About section */
+.about{
+    width: 100%;
+    min-width: auto;
+    padding: 10 rem 5 rem;
+    flex-direction: column;
+    font-size: 25px;
+}
+.about .about-info{
+    text-align: center;
+    font-size: 25px;
+}
+
+/* End About Section */
